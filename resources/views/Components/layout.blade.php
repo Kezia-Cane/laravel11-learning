@@ -24,7 +24,7 @@
                 <div class="flex h-16 items-center justify-between">
                     <div class="flex items-center">
                         <div class="flex-shrink-0">
-                            <img class="h-8 w-8" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
+                            <img class="h-8 w-8" src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Laravel.svg"
                                 alt="Your Company">
                         </div>
                         <div class="hidden md:block">
@@ -62,7 +62,7 @@
                                         <span class="absolute -inset-1.5"></span>
                                         <span class="sr-only">Open user menu</span>
                                         <img class="h-8 w-8 rounded-full"
-                                            src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                                            src="https://laracasts.nyc3.digitaloceanspaces.com/members/avatars/1770.jpg?v=943"
                                             alt="">
                                     </button>
                                 </div>
@@ -131,7 +131,7 @@
 
         <header class="bg-white shadow">
             <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-                <h1 class="text-3xl font-bold tracking-tight text-gray-900">Dashboard</h1>
+                <h1 class="text-3xl font-bold tracking-tight text-gray-900">{{ $heading }}</h1>
             </div>
         </header>
         <main>
