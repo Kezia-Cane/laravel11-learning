@@ -11,4 +11,12 @@ class Job {
       ['id' => 4, 'title' => 'Full Stack Developer', 'description' => 'Develop web applications using both frontend and backend technologies.'],
     ];
   }
+
+  public static function find(int $id) {
+    $job = \Illuminate\Support\Arr::first(Job::all(), fn(  $job) => $job['id'] == $id);
+
+    if (! $job) {
+      abort(404);
+    }
+  }
 }
